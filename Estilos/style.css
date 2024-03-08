@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #151515;
+    background-color: #111111;
     height: 100vh;
 }
 
@@ -19,43 +19,8 @@ body {
     margin: 0 auto;
 }
 
-/* Estilos Header */
-
-header {
-    padding: 40px 4%;
-}
-
-header > .interface {
+.flex {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#logo {
-    max-width: 200px;
-
-}
-
-header a {
-    color: #7d7d7d;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
-
-header a:hover {
-    color: rgb(246, 246, 246);
-    transform: scale(1.05);
-
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    padding: 0 40px;
 }
 
 .btn-contato  button {
@@ -63,7 +28,7 @@ header nav ul li {
     font-weight: 500;
     font-size: 18px;
     background: 
-        linear-gradient(#151515, #151515) padding-box,
+        linear-gradient(#111111, #111111) padding-box,
         linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
     color: #7d7d7d;
     padding: 10px 40px;
@@ -87,4 +52,143 @@ header nav ul li {
     
 }
 
+h2.titulo {
+    color: rgb(246, 246, 246);
+    font-size: 40px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #05DBF2;
+}
+
+
+/* Estilos Header */
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    max-width: 200px;
+
+}
+
+.menu-desktop  a, .btn-contato a {
+    font-size: 17px;
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: rgb(246, 246, 246);
+    transform: scale(1.05);
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* Estilos Topo do Site */
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .text-topo-site h1 {
+    color: rgb(246, 246, 246);
+    font-size: 38px;
+}
+
+.topo-do-site .text-topo-site h1 span {
+    color: #BE44F2;
+}
+.topo-do-site .text-topo-site p {
+    color: rgb(246, 246, 246);
+    padding: 20px 0px 30px 0px;
+    max-width: 530px;
+
+}
+.topo-do-site .img-topo-site img {
+    width: 480px;
+    position: relative;
+    animation: float 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes float {
+
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* Estilos Servicos */
+
+section.servicos {
+    padding: 80px 4%;
+    background-color: #151515;
+}
+
+section.servicos .flex {
+    justify-content: space-around;
+}
+
+.servicos .servicos-box {
+    margin-top: 60px;
+    color: rgb(246, 246, 246);
+    padding: 40px;
+    background-color: #111111;
+    border-radius: 10px;
+    border: 1px solid #252525;
+    transition: transform 1000ms ease-out;
+}
+
+.servicos .servicos-box:hover {
+    transform: scale(1.05);
+    background: 
+        linear-gradient(#111111, #111111) padding-box,
+        linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
+    border: 2px solid transparent;
+    
+        
+}
+
+.servicos .servicos-box i {
+    font-size: 70px;
+    color: #BE44F2;
+}
+
+.servicos .servicos-box h3 {
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+.servicos .servicos-box p {
+    max-width: 350px;
+}
 
