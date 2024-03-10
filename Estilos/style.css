@@ -192,4 +192,75 @@ section.servicos .flex {
 
 /* Estilos Sobre Mim */
 
+section.sobre {
+    padding: 80px 8%;
+    background-color: #111111;
+    
+}
 
+#foto-sobre {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+section.sobre .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #151515;
+    padding: 50px 0px;
+    border-radius: 10px;
+    border: 1px solid #252525;
+}
+
+.sobre .txt-sobre h2 {
+    color: rgb(246, 246, 246);
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #05DBF2;
+    display: block;
+}
+.sobre .txt-sobre p {
+    color: #8e8e8e;
+    max-width: 600px;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre p span {
+    color: #02a7ba;
+    font-weight: 600;
+}
+
+.sobre .txt-sobre p strong {
+    color: #8530aa;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 80px;
+    height: 80px;
+    background-color: #111111;
+    border-radius: 10px;
+    border: 1px solid #252525;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sobre .txt-sobre .btn-social button:hover {
+    transform: scale(1.05);
+    background: 
+        linear-gradient(#111111, #111111) padding-box,
+        linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
+    border: 1px solid transparent;
+}
+
+.sobre .txt-sobre .btn-social button .bi {
+    color: #8e8e8e
+}
