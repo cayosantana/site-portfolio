@@ -173,9 +173,7 @@ section.servicos .flex {
     background: 
         linear-gradient(#111111, #111111) padding-box,
         linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
-    border: 2px solid transparent;
-    
-        
+    border: 1px solid transparent;       
 }
 
 .servicos .servicos-box i {
@@ -191,4 +189,7 @@ section.servicos .flex {
 .servicos .servicos-box p {
     max-width: 350px;
 }
+
+/* Estilos Sobre Mim */
+
 
