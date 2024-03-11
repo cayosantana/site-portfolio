@@ -160,7 +160,6 @@ section.servicos .flex {
 }
 
 .servicos .servicos-box {
-    color: rgb(246, 246, 246);
     padding: 40px;
     background-color: #111111;
     border-radius: 10px;
@@ -182,11 +181,13 @@ section.servicos .flex {
 }
 
 .servicos .servicos-box h3 {
+    color: rgb(246, 246, 246);
     font-size: 28px;
     padding: 15px 0;
 }
 
 .servicos .servicos-box p {
+    color: #8e8e8e;
     max-width: 350px;
 }
 
