@@ -317,3 +317,69 @@ section.projetos .flex {
 .img-port:hover {
     background-position: 100% 100%;
 }
+
+/* Estilos Fale Comigo */
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    background-color: #424242;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: 0;
+    color: rgb(246, 246, 246);
+    font-size: 15px;
+}
+
+form textarea {
+    background-color: #424242;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    outline: 0;
+    color: rgb(246, 246, 246);
+    resize: none;
+    font-size: 15px;
+}
+
+form .btn-enviar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+form .btn-enviar input {
+    max-width: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    background: 
+        linear-gradient(#111111, #111111) padding-box,
+        linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
+    color: #7d7d7d;
+    padding: 10px 40px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover {
+    color: rgb(246, 246, 246);
+    transform: scale(1.05);
+    transition: 1s;
+}
