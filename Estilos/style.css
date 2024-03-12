@@ -377,7 +377,6 @@ form .btn-enviar input {
     border-radius: 40px;
     cursor: pointer;
 }
-
 form .btn-enviar input:hover {
     color: rgb(246, 246, 246);
     transform: scale(1.05);
