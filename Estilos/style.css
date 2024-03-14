@@ -128,8 +128,8 @@ section.topo-do-site .flex {
     color: rgb(246, 246, 246);
     padding: 20px 0px 30px 0px;
     max-width: 530px;
-
 }
+
 .topo-do-site .img-topo-site img {
     width: 480px;
     position: relative;
@@ -386,14 +386,21 @@ form .btn-enviar input:hover {
 /* Estilos Conhecimentos */
 
 section.conhecimentos {
-    padding: 80px 4%;
+    padding: 0px 80px 4%;
     background-color: #111111;
 }
 
-section.conhecimentos .flex {
-    justify-content: center;
+section.conhecimentos .flex-con {
+    display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .conhecimentos .container-btn button {
@@ -403,9 +410,14 @@ section.conhecimentos .flex {
     border-radius: 10px;
     border: 1px solid #252525;
     font-size: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 60px;
     transition: 1s;
+}
+
+.container-btn p {
+    color: #8e8e8e;
+    font-weight: 600;
+    margin: 10px 0;
     
 }
 
@@ -413,3 +425,151 @@ section.conhecimentos .flex {
     width: 60px;
     padding-top: 7px;
 }
+
+/* Estilos Footer */
+
+footer {
+    padding: 20px 4%;
+    background-color: #151515;
+}
+footer .interface .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: rgb(246, 246, 246);
+    font-weight: 600;
+}
+
+footer p span {
+    color: #BE44F2;
+}
+
+#logo-footer {
+    width: 150px;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .flex {
+        flex-direction: column;
+    }
+
+    /* Estilos Header */
+
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    /* Estilos Topo do Site */
+
+    section.topo-do-site {
+        padding: 10px 8%;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .topo-do-site .img-topo-site img {
+        max-width: 350px;
+    }
+
+    .topo-do-site .text-topo-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .text-topo-site p {
+        padding: 20px 0px;
+        max-width: 500px;
+    }
+
+    /* Estilos Sobre Mim */
+
+    #foto-sobre {
+        max-width: 300px;
+    }
+
+    section.sobre .flex {
+        padding: 15px 10px;
+        gap: 40px; 
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        line-height: 30px;
+    }
+
+    .btn-social {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .sobre .txt-sobre .btn-social button {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    /* Conhecimentos */
+
+    section.conhecimentos {
+        padding: 0px 20px 8%;
+    }
+
+    section.conhecimentos .interface {
+        margin: 40px 10px;
+    }
+
+    section.conhecimentos .flex-con {
+        margin-top: 60px;
+          
+    }
+
+    .conhecimentos .container-btn button {
+        margin-top: 0px;
+    }
+
+    /* Estilos Servicos */
+
+    section.servicos {
+        padding: 60px 8%;
+        
+    }
+    section.servicos .flex {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    /* Estilos Projetos */
+
+    section.projetos {
+        padding: 60px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section.projetos .flex {
+        gap: 20px;
+    }
+
+    /* Estilos Fale Comigo */
+
+    section.formulario {
+        padding: 40px 8%;
+    }
+
+    /* Estilos Footer */
+
+    footer .interface .flex {
+        gap: 10px;
+    }
+
+}   
