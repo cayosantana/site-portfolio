@@ -382,3 +382,34 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
     transition: 1s;
 }
+
+/* Estilos Conhecimentos */
+
+section.conhecimentos {
+    padding: 80px 4%;
+    background-color: #111111;
+}
+
+section.conhecimentos .flex {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.conhecimentos .container-btn button {
+    width: 100px;
+    height: 100px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: 1px solid #252525;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 1s;
+    
+}
+
+.container-btn img {
+    width: 60px;
+    padding-top: 7px;
+}
