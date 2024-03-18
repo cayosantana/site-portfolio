@@ -16,7 +16,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-     <!-- Fim Favicon -->
+    <!-- Fim Favicon -->
+    <!-- Efeito Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>
+    <!-- Fim Efeito Scroll Reveal -->
     <link rel="stylesheet" href="Estilos/style.css">
     <title>Portfólio - Cayo Santana</title>
 </head>
@@ -63,7 +67,7 @@
         <section class="topo-do-site">
             <div class="interface">
                 <div class="flex">
-                    <div class="text-topo-site">
+                    <div class="text-topo-site efeito-txt-topo-site">
                         <h1>
                             TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span>
                         </h1>
@@ -74,7 +78,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="img-topo-site">
+                    <div class="img-topo-site efeito-img-topo-site">
                         <img src="./image/graffic-port-02.png" alt="foto computador">
                     </div>
                 </div>
@@ -82,15 +86,15 @@
         </section>
         <section class="sobre" id="sobre">
             <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
+                <div class="flex efeito-container-sobre">
+                    <div class="img-sobre efeito-daley-sobre">
                         <img id="foto-sobre" src="./image/foto-port.png" alt="Foto Portfólio">
                     </div>
-                    <div class="txt-sobre">
+                    <div class="txt-sobre efeito-daley-sobre">
                         <h2>MUITO PRAZER,<span>SOU CAYO SANTANA.</span></h2>
                         <p>Sou graduado em Design, com foco especial em <span>UX (User Experience) e UI (User Interface) design</span>. Durante minha formação, mergulhei no mundo da usabilidade, acessibilidade e design centrado no usuário. Acredito que uma boa interface é aquela que torna a vida das pessoas mais fácil e agradável. Durante meus projetos profissionais, tive a oportunidade de trabalhar com <strong>HTML</strong> e <strong>CSS</strong>. Foi nesse momento que me encantei com a área de desenvolvimento web. A possibilidade de criar algo visualmente atraente e funcional me motivou a buscar mais conhecimentos.</p>
                         <p>Foi assim que comecei a aprender <span>JavaScript</span> e a explorar o mundo do <strong>desenvolvimento front-end</strong>. E então, a mágica aconteceu quando conheci a <span>biblioteca React</span>. Ela me permitiu criar aplicações web mais dinâmicas, interativas e robustas. A cada linha de código, sentia que estava construindo algo que impactaria a vida das pessoas. Já solucionei diversos problemas ao desenvolver aplicações web com sistemas de design sólidos. A renderização rápida e fluida, juntamente com formulários com validações poderosas, são áreas em que me destaco. Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas reais, e estou comprometido em fazer exatamente isso.</p>
-                        <div class="btn-social">
+                        <div class="btn-social efeito-daley-sobre">
                             <a href="https://www.linkedin.com/in/cayosantana/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
                             <a href="https://github.com/cayosantana" target="_blank"><button><i class="bi bi-github"></i></button></a>
                             <a href="https://discord.com/cayosantana." target="_blank"><button><i class="bi bi-discord"></i></button></a>
@@ -104,35 +108,35 @@
             <div class="interface">
                 <h2 class="titulo">Conhecimentos<span>/</span></h2>
                 <div class="flex-con">
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos01">
                         <div><button><img src="./image/icons/tela-projeto-forme01.svg" alt=""></button></div>
                         <p>HTML</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos02">
                         <div><button><img src="./image/icons/tela-projeto-forme02.svg" alt=""></button></div>
                         <p>CSS</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos03">
                         <div><button><img src="image/icons/tela-projeto-forme03.svg" alt=""></button></div>
                         <p>JavaScript</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos04">
                         <div><button><img src="./image/icons/tela-projeto-forme04.svg" alt=""></button></div>
                         <p>TypeScript</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos05">
                         <div><button><img src="./image/icons/tela-projeto-forme05.svg" alt=""></button></div>
                         <p>React</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos06">
                         <div><button><img src="./image/icons/tela-projeto-forme06.svg" alt=""></button></div>
                         <p>Next</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos07">
                         <div><button><img src="image/icons/tela-projeto-forme07.svg" alt=""></button></div>
                         <p>TailwindCss</p>
                     </div>
-                    <div class="container-btn">
+                    <div class="container-btn efeito-conhecimentos08">
                         <div><button><img src="image/icons/tela-projeto-forme08.svg" alt=""></button></div>
                         <p>Styled-Comp.</p>
                     </div>
@@ -143,12 +147,12 @@
             <div class="interface">
                 <h2 class="titulo">Serviços<span>/</span></h2>
                 <div class="flex">
-                    <div class="servicos-box">
+                    <div class="servicos-box efeito-ui">
                         <i class="bi bi-bezier"></i>
                         <h3>UI Design</h3>
                         <p>minha responsabilidade inclui criar protótipos visuais a partir de interfaces intuitivas e eficientes para os usuários.</p>
                     </div>
-                    <div class="servicos-box">
+                    <div class="servicos-box efeito-dev">
                         <i class="bi bi-code-slash"></i>
                         <h3>Desenvolvimento</h3>
                         <p>Como desenvolvedor front-end, minha atuação envolve a criação e implementação da interface de websites e aplicativos, com foco na experiência do usuário.</p>
@@ -160,13 +164,13 @@
             <div class="interface">
                 <h2 class="titulo">Projetos<span>/</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(./image/tela-projeto-forme.png);">
+                    <div class="img-port efeito-port01" style="background-image: url(./image/tela-projeto-forme.png);">
                         <div class="overlay">Forme</div>
                     </div>
-                    <div class="img-port" style="background-image: url();">
+                    <div class="img-port efeito-port02" style="background-image: url();">
                         <div class="overlay">Projeto 02</div>
                     </div>
-                    <div class="img-port" style="background-image: url();">
+                    <div class="img-port efeito-port03" style="background-image: url();">
                         <div class="overlay">Projeto 03</div>
                     </div>
                 </div>
@@ -176,7 +180,7 @@
             <div class="interface">
                 <h2 class="titulo">Fale Comigo<span>/</span></h2>
 
-                <form action="">
+                <form action="" class="efeito-form">
                     <input type="text" name="" id="" placeholder="Seu nome completo:" required autocomplete="name">
                     <input type="text" name="" id="" placeholder="Seu e-mail:" required autocomplete="email">
                     <input type="text" name="" id="" placeholder="Seu celular:" required autocomplete="tel">

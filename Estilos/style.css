@@ -219,6 +219,10 @@ section.topo-do-site .flex {
     }
 }
 
+.efeito-txt-topo-site, .efeito-img-topo-site { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
+}
+
 /* Estilos Servicos */
 
 section.servicos {
@@ -261,6 +265,10 @@ section.servicos .flex {
 .servicos .servicos-box p {
     color: #8e8e8e;
     max-width: 350px;
+}
+
+.efeito-ui, .efeito-dev { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
 }
 
 /* Estilos Sobre Mim */
@@ -338,6 +346,10 @@ section.sobre .flex {
     color: #8e8e8e
 }
 
+.efeito-container-sobre, .titulo, .efeito-daley-sobre { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
+}
+
 /* Estilos Projetos */
 
 section.projetos {
@@ -388,6 +400,10 @@ section.projetos .flex {
 
 .img-port:hover {
     background-position: 100% 100%;
+}
+
+.efeito-port01, .efeito-port02, .efeito-port03 { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
 }
 
 /* Estilos Fale Comigo */
@@ -455,10 +471,14 @@ form .btn-enviar input:hover {
     transition: 1s;
 }
 
+.efeito-form { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
+}
+
 /* Estilos Conhecimentos */
 
 section.conhecimentos {
-    padding: 0px 80px 4%;
+    padding: 100px 4%;
     background-color: #111111;
 }
 
@@ -473,6 +493,7 @@ section.conhecimentos .flex-con {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .conhecimentos .container-btn button {
@@ -500,6 +521,10 @@ section.conhecimentos .flex-con {
 .container-btn img {
     width: 60px;
     padding-top: 7px;
+}
+
+.efeito-conhecimentos01, .efeito-conhecimentos02, .efeito-conhecimentos03, .efeito-conhecimentos04, .efeito-conhecimentos05, .efeito-conhecimentos06, .efeito-conhecimentos07, .efeito-conhecimentos08 { /* Esconder elementos para o efeito Scroll Reveal */
+    visibility: hidden;
 }
 
 /* Estilos Footer */
