@@ -52,6 +52,7 @@ body {
     
 }
 
+
 h2.titulo {
     color: rgb(246, 246, 246);
     font-size: 40px;
@@ -66,7 +67,8 @@ h2.titulo span {
 /* Estilos Header */
 
 header {
-    padding: 40px 4%;
+    padding: 0px 4%;
+    
 }
 
 header > .interface {
@@ -76,7 +78,7 @@ header > .interface {
 }
 
 #logo {
-    max-width: 200px;
+    width: 100px;
 
 }
 
@@ -103,6 +105,31 @@ header nav.menu-desktop ul li {
     padding: 0px 40px;
 }
 
+.btn-contato  #fixed {
+
+    font-weight: 500;
+    font-size: 18px;
+    background: 
+        linear-gradient(#111111, #111111) padding-box,
+        linear-gradient(60deg, #BE44F2, #05DBF2) border-box;
+    color: #7d7d7d;
+    padding: 10px 40px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.btn-contato #fixed:hover {
+    color: rgb(246, 246, 246);
+}
+
 /* Estilo Menu Mobile */
 
 .btn-abrir-menu {
@@ -111,7 +138,8 @@ header nav.menu-desktop ul li {
 
 .btn-abrir-menu i {
     color: #BE44F2;
-    font-size: 40px; 
+    font-size: 40px;
+    margin-right: 20px;
 }
 
 .menu-mobile {
@@ -184,7 +212,7 @@ section.topo-do-site {
 
 section.topo-do-site .flex {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 90px;
 }
 
@@ -200,11 +228,11 @@ section.topo-do-site .flex {
 .topo-do-site .text-topo-site p {
     color: rgb(246, 246, 246);
     padding: 20px 0px 30px 0px;
-    max-width: 650px;
+    max-width: 600px;
 }
 
 .topo-do-site .img-topo-site img {
-    width: 480px;
+    width: 500px;
     position: relative;
     animation: float 2s ease-in-out infinite alternate;
 
@@ -585,11 +613,12 @@ footer p span {
 
     .topo-do-site .text-topo-site h1 {
         font-size: 30px;
+        text-align: center;
     }
 
     .topo-do-site .text-topo-site p {
         padding: 20px 0px;
-        max-width: 500px;
+        text-align: justify;
     }
 
     /* Estilos Sobre Mim */
