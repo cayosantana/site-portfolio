@@ -85,16 +85,22 @@ revelar.reveal('.efeito-conhecimentos08', {
 
 // Serviço
 
-revelar.reveal('.efeito-ui', {
+revelar.reveal('.efeito-ux', {
     duration: 2000,
     distance: '90px',
     delay: 500
 })
 
-revelar.reveal('.efeito-dev', {
+revelar.reveal('.efeito-ui', {
     duration: 2000,
     distance: '90px',
     delay: 1000
+})
+
+revelar.reveal('.efeito-dev', {
+    duration: 2000,
+    distance: '90px',
+    delay: 1500
 })
 
 // Projetos
