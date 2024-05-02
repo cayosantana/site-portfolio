@@ -67,7 +67,7 @@ h2.titulo span {
 /* Estilos Header */
 
 header {
-    padding: 0px 4%;
+    padding: 20px 4%;
     
 }
 
@@ -78,7 +78,7 @@ header > .interface {
 }
 
 #logo {
-    width: 100px;
+    width: 80px;
 
 }
 
