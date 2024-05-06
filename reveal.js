@@ -10,7 +10,7 @@ revelar.reveal('.efeito-txt-topo-site', {
 revelar.reveal('.efeito-img-topo-site', {
     duration: 2000,
     distance: '90px',
-    delay: 500
+    
 })
 
 // Titulos do site
