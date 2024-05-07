@@ -213,7 +213,7 @@ section.topo-do-site {
 section.topo-do-site .flex {
     align-items: center;
     justify-content: space-between;
-    gap: 90px;
+    gap: 0px;
 }
 
 .topo-do-site .text-topo-site h1 {
@@ -336,7 +336,7 @@ section.sobre .flex {
     display: block;
 }
 .sobre .txt-sobre p {
-    color: #8e8e8e;
+    color: #c4c4c4;
     max-width: 600px;
     margin: 15px 0;
     text-align: justify;
@@ -597,15 +597,20 @@ footer p span {
         display: block;
     }
 
+    #logo {
+        margin-left: 20px;
+    }
+
 
     /* Estilos Topo do Site */
 
     section.topo-do-site {
-        padding: 10px 8%;
+        padding: 60px 8%;
     }
 
     .topo-do-site .flex {
         flex-direction: column-reverse;
+        gap: 0px;
     }
 
     .topo-do-site .img-topo-site img {
@@ -613,30 +618,47 @@ footer p span {
     }
 
     .topo-do-site .text-topo-site h1 {
-        font-size: 30px;
-        text-align: center;
+        font-size: 25px;
+        line-height: 2rem; 
+        
     }
 
     .topo-do-site .text-topo-site p {
         padding: 20px 0px;
-        text-align: justify;
+        line-height: 1.6rem;
+        font-size: 17px;
+       
+        
     }
 
     /* Estilos Sobre Mim */
 
+    section.sobre {
+        background-color: #151515;
+    }
+
     #foto-sobre {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     section.sobre .flex {
-        padding: 15px 10px;
+        padding: 15px 4%;
         gap: 40px; 
+        border: none;
     }
 
     .sobre .txt-sobre h2 {
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 15px;
-        line-height: 30px;
+        line-height: 2rem;
+    }
+
+    .sobre .txt-sobre p {
+        font-size: 16px;
+        margin: 15px 0;
+        text-align: justify;
+        min-width: 350px;
+        line-height: 1.6rem; 
     }
 
     .btn-social {
@@ -655,7 +677,7 @@ footer p span {
     /* Conhecimentos */
 
     section.conhecimentos {
-        padding: 0px 20px 8%;
+        padding: 60px 8%;
     }
 
     section.conhecimentos .interface {
@@ -684,6 +706,11 @@ footer p span {
     section.servicos .flex {
         margin-top: 40px;
         gap: 20px;
+    }
+
+    .servicos .servicos-box p {
+        font-size: 15px;
+        line-height: 1.6rem;
     }
 
     /* Estilos Projetos */
