@@ -439,9 +439,9 @@ section.projetos .flex {
     background-position: 100% 100%;
 }
 
-/*.efeito-port01, .efeito-port02, .efeito-port03 { /* Esconder elementos para o efeito Scroll Reveal */
+.efeito-port01, .efeito-port02, .efeito-port03 { /* Esconder elementos para o efeito Scroll Reveal */
     visibility: hidden;
-}*/
+}
 
 /* Estilos Fale Comigo */
 

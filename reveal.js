@@ -105,7 +105,7 @@ revelar.reveal('.efeito-dev', {
 
 // Projetos
 
-revelar.reveal('.efeito-port01', {
+/*revelar.reveal('.efeito-port01', {
     duration: 2000,
     distance: '90px',
     delay: 500
@@ -121,7 +121,7 @@ revelar.reveal('.efeito-port03', {
     duration: 2000,
     distance: '90px',
     delay: 1500
-})
+})*/
 
 // Formulario
 
