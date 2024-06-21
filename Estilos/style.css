@@ -395,6 +395,7 @@ section.projetos {
 section.projetos .flex {
     justify-content: space-around;
     margin-top: 60px;
+    flex-wrap: wrap;
 
 }
 .img-port {
