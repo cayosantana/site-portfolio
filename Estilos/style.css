@@ -440,7 +440,7 @@ section.projetos .flex {
 }
 
 .efeito-port01, .efeito-port02, .efeito-port03 { /* Esconder elementos para o efeito Scroll Reveal */
-    /*visibility: hidden;*/
+    visibility: hidden;
 }
 
 /* Estilos Fale Comigo */
