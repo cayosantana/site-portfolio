@@ -560,7 +560,7 @@ section.conhecimentos .flex-con {
     padding-top: 7px;
 }
 
-.efeito-conhecimentos01, .efeito-conhecimentos02, .efeito-conhecimentos03, .efeito-conhecimentos04, .efeito-conhecimentos05, .efeito-conhecimentos06, .efeito-conhecimentos07, .efeito-conhecimentos08 { /* Esconder elementos para o efeito Scroll Reveal */
+.efeito-conhecimentos01 { /* Esconder elementos para o efeito Scroll Reveal */
     visibility: hidden;
 }
 

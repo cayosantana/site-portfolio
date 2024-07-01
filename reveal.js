@@ -45,47 +45,6 @@ revelar.reveal('.efeito-conhecimentos01', {
     delay: 500
 })
 
-revelar.reveal('.efeito-conhecimentos02', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos03', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos04', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos05', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos06', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos07', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
-
-revelar.reveal('.efeito-conhecimentos08', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500
-})
 
 // Serviço
 
