@@ -381,7 +381,7 @@ section.sobre .flex {
     color: #8e8e8e
 }
 
-.efeito-container-sobre, .titulo, .efeito-daley-sobre { /* Esconder elementos para o efeito Scroll Reveal */
+.efeito-container-sobre,  .efeito-daley-sobre { /* Esconder elementos para o efeito Scroll Reveal */
     visibility: hidden;
 }
 
