@@ -90,19 +90,19 @@ revelar.reveal('.efeito-conhecimentos08', {
 revelar.reveal('.efeito-ux', {
     duration: 2000,
     distance: '90px',
-    delay: 300
+    delay: 500
 })
 
 revelar.reveal('.efeito-ui', {
     duration: 2000,
     distance: '90px',
-    delay: 300
+    delay: 500
 })
 
 revelar.reveal('.efeito-dev', {
     duration: 2000,
     distance: '90px',
-    delay: 300
+    delay: 500
 })
 
 // Projetos
@@ -116,13 +116,14 @@ revelar.reveal('.efeito-port01', {
 revelar.reveal('.efeito-port02', {
     duration: 2000,
     distance: '90px',
-    delay: 1000
+    delay: 500
 })
 
 revelar.reveal('.efeito-port03', {
     duration: 2000,
     distance: '90px',
-    delay: 1500
+    delay: 500
+
 })
 
 // Formulario
