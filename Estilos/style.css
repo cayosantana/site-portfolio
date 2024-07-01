@@ -301,7 +301,7 @@ section.servicos .flex {
     line-height: 1.6rem;
 }
 
-.efeito-ui, .efeito-dev { /* Esconder elementos para o efeito Scroll Reveal */
+.efeito-ui, .efeito-ux, .efeito-dev { /* Esconder elementos para o efeito Scroll Reveal */
     visibility: hidden;
 }
 
