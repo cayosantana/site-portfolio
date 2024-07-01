@@ -26,12 +26,14 @@ revelar.reveal('.titulo', {
 
 revelar.reveal('.efeito-container-sobre', {
     duration: 2000,
-    distance: '90px'
+    distance: '90px',
+    delay: 500
 })
 
 revelar.reveal('.efeito-daley-sobre', {
     duration: 2000,
     distance: '90px',
+    delay: 500
     
 })
 
@@ -40,49 +42,49 @@ revelar.reveal('.efeito-daley-sobre', {
 revelar.reveal('.efeito-conhecimentos01', {
     duration: 2000,
     distance: '90px',
-    delay: 300
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos02', {
     duration: 2000,
     distance: '90px',
-    delay: 600
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos03', {
     duration: 2000,
     distance: '90px',
-    delay: 900
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos04', {
     duration: 2000,
     distance: '90px',
-    delay: 1200
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos05', {
     duration: 2000,
     distance: '90px',
-    delay: 1500
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos06', {
     duration: 2000,
     distance: '90px',
-    delay: 1800
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos07', {
     duration: 2000,
     distance: '90px',
-    delay: 2100
+    delay: 500
 })
 
 revelar.reveal('.efeito-conhecimentos08', {
     duration: 2000,
     distance: '90px',
-    delay: 2400
+    delay: 500
 })
 
 // Serviço
