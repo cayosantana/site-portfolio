@@ -30,7 +30,7 @@ revelar.reveal('.efeito-container-sobre', {
 revelar.reveal('.efeito-daley-sobre', {
     duration: 2000,
     distance: '90px',
-    delay: 500
+    
 })
 
 // Conhecimentos 
