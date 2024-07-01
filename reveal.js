@@ -15,10 +15,7 @@ revelar.reveal('.efeito-img-topo-site', {
 
 // Titulos do site
 
-revelar.reveal('.titulo', {
-    duration: 2000,
-    distance: '90px'
-})
+
 
 // Sobre
 
