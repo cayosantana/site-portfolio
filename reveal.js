@@ -88,19 +88,19 @@ revelar.reveal('.efeito-conhecimentos08', {
 revelar.reveal('.efeito-ux', {
     duration: 2000,
     distance: '90px',
-    delay: 500
+    delay: 0
 })
 
 revelar.reveal('.efeito-ui', {
     duration: 2000,
     distance: '90px',
-    delay: 1000
+    delay: 0
 })
 
 revelar.reveal('.efeito-dev', {
     duration: 2000,
     distance: '90px',
-    delay: 1500
+    delay: 0
 })
 
 // Projetos
