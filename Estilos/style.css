@@ -664,7 +664,7 @@ footer p span {
     .sobre .txt-sobre p {
         font-size: 18px;
         margin: 15px 0;
-        text-align: justify;
+        text-align: ;
         min-width: 350px;
         line-height: 1.6rem; 
     }
